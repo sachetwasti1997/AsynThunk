@@ -1,0 +1,38 @@
+.itemCard { 
+  height: 50px; 
+  width: 95%;
+  border-radius: 5px;
+  background-color: aquamarine;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  padding: 0 10px 0 10px;
+  
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+}
+
+.itemCard:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.expand {
+  justify-self: end;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.expand:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.itemAlbum { 
+  min-height: 150px; 
+  width: 95%;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  padding: 10px
+}
